@@ -1,48 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <div class="text-center mx-auto">
-      <div class="flex flex-col justify-content-center pt-4 gap-4 bg">
-        <div class="logo flex items-center h-full justify-center mt-4">
-          <img
-            src="/images/pp.png"
-            alt="Ayhan Tatar"
-            class="w-[150px] h-[150px] rounded-full"
-          />
-        </div>
-        <h1 class="text-bold text-white text-2xl">Ayhan Tatar</h1>
-        <p class="text-zinc-100/30  text-xl">Seo</p>
-        <div class="grid grid-cols-3 p-2 border-slate-500 place-items-center items-center text-white border-2">
-          
-            <div class="flex ">
-                <button>
-                    <img src="/images/phone-50.png" alt="Call" class="p-3"/>
-                    
-                    CALL</button>
-            </div>
-            <div class="flex ">
-                <button>
-                    <img src="/images/email-500.png" alt="Mail" class="p-3"/>
-                    
-                    EMAIL</button>
-            </div>
-            <div class="flex ">
-                <button>
-                    <img src="/images/location-50.png" alt="Map" class="p-3"/>
-                    
-                    DIRECTIONS</button>
-            </div>
-          </div>
-      
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="text-center mx-auto">
+    <div class="flex flex-col justify-content-center pt-4 gap-4 bg-grad">
+      <div class="logo flex items-center justify-center mt-4">
+        <img src="/images/pp.png" alt="Ayhan Tatar"
+          class="w-[150px] h-[150px] md:w-[300px] md:h-[300px] rounded-full" />
       </div>
+      <h1 class="text-bold text-white text-3xl">Ayhan Tatar</h1>
+      <h3 class="text-zinc-100/30  text-2xl">Seo</h3>
+      <div class="grid grid-cols-3 p-2 border-slate-700 place-items-center items-center text-white border-b-2">
+
+        <div class=" ">
+          <a href="/">
+            <img src="/images/phone-50.png" alt="Call" class="p-3" />
+
+            CALL</a>
+        </div>
+        <div class=" ">
+          <a href="/">
+            <img src="/images/email-500.png" alt="Mail" class="p-3" />
+
+            EMAIL</a>
+        </div>
+        <div class=" ">
+          <a href="/">
+            <img src="/images/location-50.png" alt="Map" class="p-3" />
+
+            Location</a>
+        </div>
+      </div>
+
     </div>
-  </body>
+
+
+  </div>
+
+
+  <div class="bg-bottom bg-zinc-300 flex h-screen">
+    <div class="grid grid-cols w-full h-full">
+      <div class="grid grid-cols-1">
+
+        <div class="flex flex-row  items-center">
+          <div class="flex">
+            icon
+          </div>
+          <div class="grow">
+            2.content
+          </div>
+        </div>
+        <div class="flex flex-row  items-center">
+          <div class="flex">
+            icon
+          </div>
+          <div class="grow">
+            2.content
+          </div>
+        </div>
+        <div class="flex flex-row  items-center">
+          <div class="flex">
+            icon
+          </div>
+          <div class="grow">
+            2.content
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</body>
+
 </html>
