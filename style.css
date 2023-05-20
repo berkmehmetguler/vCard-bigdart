@@ -13,6 +13,10 @@
     align-items: center;
 } */
 
+html{
+    scroll-behavior: smooth;
+}
+
 .bg-grad{
     background: rgb(223,46,56);
 background: linear-gradient(211deg, rgba(223,46,56,1) 0%, rgba(55,48,107,1) 79%);
